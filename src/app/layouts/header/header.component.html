@@ -1,0 +1,266 @@
+<header class="main-header header-style-one">
+  <div class="header-top">
+    <div class="container">
+      <div class="outer-box clearfix">
+        <div class="header-top_left pull-left">
+          <div class="text">
+            <p>{{"call"|translate}}</p>
+          </div>
+          <div class="header-contact-info1">
+            <ul>
+              <li>
+                <span class="icon-calling"></span
+                ><a href="tel:+99871 255 88 22 ">+998(71) 255-88-22 </a>
+              </li>
+              <li>
+                <span class="icon-clock"></span>{{ 'working_hours' | translate }}
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="header-top_right pull-right">
+          <div class="header-mail-box">
+            <span class="icon-email"></span>
+            <p><a href="mailto:trest7@internet.ru ">trest7&#64;internet.ru </a></p>
+          </div>
+          <div class="space-box1"></div>
+          <div class="header-mail-box">
+            <span class="icon-placeholder"></span>
+            <p ><a routerLink="branches">Manzil</a>
+
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Start Header-->
+  <div class="header">
+    <div class="auto-container">
+      <div class="outer-box">
+        <div class="header-left">
+          <div class="logo">
+            <a routerLink="/"
+              ><img class="logo"
+                src="../../../assets/images/icon/logo.png"
+                alt=" Logo"
+                title=""
+            /></a>
+          </div>
+        </div>
+
+        <div class="header-right">
+          <div class="nav-outer style1 clearfix">
+            <!--Mobile Navigation Toggler-->
+            <div class="mobile-nav-toggler">
+              <div class="inner">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </div>
+            </div>
+            <!-- Main Menu -->
+            <nav class="main-menu style1 navbar-expand-md navbar-light">
+              <div
+                class="collapse navbar-collapse show clearfix"
+                id="navbarSupportedContent"
+              >
+                <ul class="navigation clearfix">
+                  <li class="dropdown" routerLinkActive="current">
+                    <a routerLink="/dashboard"
+                      ><span>{{ "main" | translate }}</span></a
+                    >
+                  </li>
+
+                  <!-- <li class="dropdown" routerLinkActive="current">
+                    <a routerLink="/services"
+                      ><span>{{ "service" | translate }}</span></a
+                    >
+
+                  </li> -->
+                  <li class="dropdown" routerLinkActive="current">
+                    <a routerLink="/products"
+                      ><span>{{ "products" | translate }}</span></a
+                    >
+
+                  </li>
+
+                  <li class="dropdown" routerLinkActive="current">
+                    <a routerLink="/about"
+                      ><span>{{ "about_company" | translate }}</span></a
+                    >
+
+                  </li>
+
+                  <li routerLinkActive="current">
+                    <a routerLink="/contact"
+                      ><span>{{ "contacts" | translate }}</span></a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </nav>
+            <!-- Main Menu End-->
+          </div>
+
+
+          <div class="space-box2"></div>
+
+          <div
+            class="language-dropdown hidden"
+            (click)="toggleDropdown()"
+            *ngIf="!isMobile"
+          >
+            <button class="selected-language">
+              <img [src]="selectedFlag" alt="Selected language" />
+              <span>{{ getLangName(selectedLang) }}</span>
+            </button>
+
+            <ul *ngIf="dropdownOpen" class="language-list">
+              <li
+                *ngFor="let lang of languages"
+                (click)="selectLanguage(lang)"
+                [class.active]="lang.code === selectedLang"
+              >
+                <img [src]="lang.flag" alt="{{ lang.code }}" />
+                <span>{{ lang.name }}</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="space-box2"></div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--End header-->
+
+  <!--Sticky Header-->
+  <div class="sticky-header">
+    <div class="container">
+      <div class="clearfix">
+        <!--Logo-->
+        <div class="logo float-left">
+          <a routerLink="/" class="img-responsive"
+            ><img
+              src="https://elevenwater.uz/img/wp-content/uploads/2021/05/eleven_logo.png"
+              alt=""
+              title=""
+          /></a>
+        </div>
+        <!--Right Col-->
+        <div class="right-col float-right">
+          <!-- Main Menu -->
+          <nav class="main-menu clearfix">
+            <!--Keep This Empty / Menu will come through Javascript-->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--End Sticky Header-->
+
+  <!-- Mobile Menu  -->
+  <div class="mobile-menu">
+    <div class="menu-backdrop"></div>
+    <div class="close-btn"><span class="icon fa fa-times-circle"></span></div>
+    <nav class="menu-box">
+      <div class="menu-outer">
+        <ul class="mobile-nav">
+          <!-- HOME -->
+          <li>
+            <div class="menu-item">
+              <a routerLink="/dashboard">{{ "main" | translate }}</a>
+            </div>
+          </li>
+
+          <!-- SERVICES -->
+          <!-- <li [class.open]="openMenu === 'services'">
+            <div class="menu-item" (click)="toggleMenu('services')">
+              <span>{{ "service" | translate }}</span>
+              <span class="submenu-toggler">
+                <i
+                  class="fa"
+                  [ngClass]="
+                    openMenu === 'services' ? 'fa-angle-down' : 'fa-angle-right'
+                  "
+                ></i>
+              </span>
+            </div>
+            <ul class="submenu" *ngIf="openMenu === 'services'">
+              <li>
+                <a routerLink="/services">{{ "all_services" | translate }}</a>
+              </li>
+              <li>
+                <a routerLink="/service-detail">{{
+                  "service-detail" | translate
+                }}</a>
+              </li>
+            </ul>
+          </li> -->
+
+
+          <li>
+            <div class="menu-item">
+              <a routerLink="/products">{{ "products" | translate }}</a>
+            </div>
+          </li>
+          <!-- CONTACT -->
+          <li>
+            <div class="menu-item">
+              <a routerLink="/contact">{{ "contacts" | translate }}</a>
+            </div>
+          </li>
+        </ul>
+
+        <!-- LANGUAGE DROPDOWN -->
+        <div
+          class="language-dropdown mobile-lang"
+          (click)="toggleDropdown()"
+          *ngIf="isMobile"
+        >
+          <button class="selected-language">
+            <img [src]="selectedFlag" alt="Selected language" />
+            <span>{{ getLangName(selectedLang) }}</span>
+          </button>
+
+          <ul *ngIf="dropdownOpen" class="language-list">
+            <li
+              *ngFor="let lang of languages"
+              (click)="selectLanguage(lang)"
+              [class.active]="lang.code === selectedLang"
+            >
+              <img [src]="lang.flag" alt="{{ lang.code }}" />
+              <span>{{ lang.name }}</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!--Social Links-->
+      <div class="social-links">
+        <ul class="clearfix">
+          <li>
+            <a href="#"><span class="fab fa fa-facebook-square"></span></a>
+          </li>
+          <li>
+            <a href="#"><span class="fab fa fa-twitter-square"></span></a>
+          </li>
+          <li>
+            <a href="#"><span class="fab fa fa-pinterest-square"></span></a>
+          </li>
+          <li>
+            <a href="#"><span class="fab fa fa-google-plus-square"></span></a>
+          </li>
+          <li>
+            <a href="#"><span class="fab fa fa-youtube-square"></span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <!-- End Mobile Menu -->
+</header>

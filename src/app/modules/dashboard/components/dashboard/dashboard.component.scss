@@ -1,0 +1,107 @@
+.clearfix_class {
+  display: flex;
+  flex-direction: row;
+
+}
+
+@media (max-width: 768px) {
+  .clearfix_class {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.product-quantity-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f7fc;
+  border-radius: 8px;
+  font-size: 10px;
+  color: #00aaff;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+
+
+
+
+
+
+.fact-counter-area {
+  background: linear-gradient(to right, #f1f5f9, #e2ecf9);
+  padding: 80px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fact-container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.fact-title-box {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.fact-heading {
+  font-size: 36px;
+  color: #0A4F6B;
+  font-weight: 700;
+  margin: 0;
+}
+
+.fact-subtitle {
+  color: #555;
+  font-size: 16px;
+  max-width: 600px;
+  margin: 10px auto 0;
+  line-height: 1.6;
+}
+
+.fact-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.fact-row.justify-center {
+  justify-content: center;
+}
+
+.fact-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+  padding: 25px 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+  width: 350px;
+}
+
+.fact-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.12);
+}
+
+.fact-number {
+  font-size: 42px;
+  font-weight: 800;
+  color: #0A4F6B;
+  margin-bottom: 12px;
+}
+
+.fact-label {
+  font-size: 18px;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 6px;
+}
+
+.fact-desc {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5;
+}
