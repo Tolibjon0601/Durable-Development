@@ -23,7 +23,7 @@
   <div class="branches-container">
     <div class="branch-list">
       <h3>{{ "branches" | translate }}</h3>
-      <div *ngFor="let branch of branches" class="branch-card" (click)="focusOn(branch)">
+      <div class="branch-card">
         <h4>{{ branch.name }}</h4>
         <p>{{ branch.address }}</p>
       </div>

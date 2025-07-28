@@ -10,20 +10,13 @@ declare const ymaps: any;
   styleUrl: './branches.component.scss'
 })
 export class BranchesComponent implements OnInit{
-  branches = [
-    {
-      name: 'ELEVEN. ООО "GOLD ECO WATER"',
-      address: 'Jizzakh, Jizzakh Region, Uzbekistan',
-      coords: [40.158551, 67.7823631],
-    },
-    {
-      name: 'Eleven Water – Yunusobod',
-      address: 'Yunusobod , Toshkent',
-      coords: [41.330707, 69.268620],
-    }
-  ];
+  branch = {
+    name: 'Durable Development MChJ',
+    address: 'Mirobod tumani, Mironshoh 6-boshiberk ko’cha, 18/141-uy ',
+    coords: [41.286830, 69.272703]
+  };
+
   map: any;
-  placemarks: any[] = [];
 
   ngOnInit(): void {
     if ((window as any).ymaps) {
@@ -37,32 +30,22 @@ export class BranchesComponent implements OnInit{
 
   initMap() {
     this.map = new ymaps.Map('yandex-map', {
-      center: [41.311081, 69.240562],
-      zoom: 11,
+      center: this.branch.coords,
+      zoom: 14,
       controls: ['zoomControl'],
     });
 
-    this.loadMarkers();
-  }
-
-  loadMarkers() {
-    this.branches.forEach(branch => {
-      const placemark = new ymaps.Placemark(branch.coords, {
-        balloonContentHeader: branch.name,
-        balloonContentBody: branch.address
-      }, {
-        iconLayout: 'default#image',
-        iconImageHref: 'assets/images/icon/pin_7695812.png', // <– Suv belgisi rasmi
-        iconImageSize: [40, 40],
-        iconImageOffset: [-20, -40] // markazlashtirish
-      });
-
-      this.map.geoObjects.add(placemark);
-      this.placemarks.push(placemark);
+    const placemark = new ymaps.Placemark(this.branch.coords, {
+      balloonContentHeader: this.branch.name,
+      balloonContentBody: this.branch.address
+    }, {
+      iconLayout: 'default#image',
+      iconImageHref: 'assets/images/icon/pin_7695812.png',
+      iconImageSize: [40, 40],
+      iconImageOffset: [-20, -40]
     });
+
+    this.map.geoObjects.add(placemark);
   }
 
-  focusOn(branch: any) {
-    this.map.setCenter(branch.coords, 14, { duration: 500 });
-  }
 }
