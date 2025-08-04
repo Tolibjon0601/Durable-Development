@@ -1,22 +1,18 @@
-{ "currency": "so'm",
-"call":"Qo'ng'iroq qiling",
-"working_hours": "Du - Ju: 08.00 dan 17.00 gacha"
-,
-"email_address": "Email manzil"
-,
-"go_to_payment": "To‘lovga o‘tish",
-"update": "Yangilash",
-"shipping_address": "Yetkazib berish manzili"
-,
+{
+  "currency": "so'm",
+  "call": "Qo'ng'iroq qiling",
+  "working_hours": "Du - Ju: 08.00 dan 17.00 gacha",
+  "email_address": "Email manzil",
+  "go_to_payment": "To‘lovga o‘tish",
+  "update": "Yangilash",
+  "shipping_address": "Yetkazib berish manzili",
+  "branches": "Filiallar",
 
-
-"branches": "Filiallar",
-
-"name": "Ism",
-"surname": "Familiya",
-"address": "Manzil",
-"phone": "Telefon raqam",
-"comment": "Izoh",
+  "name": "Ism",
+  "surname": "Familiya",
+  "address": "Manzil",
+  "phone": "Telefon raqam",
+  "comment": "Izoh",
   "main": "Asosiy",
   "service": "Xizmatlar",
   "all_services": "Barcha xizmatlar",
@@ -47,77 +43,53 @@
   "watchVideo": "Videoni tomosha qiling",
   "videoDesc": "Ishlab chiqarishdan yetkazib berishgacha",
 
-    "big-title-1": "Bir maqsad <br/> bir jamoa",
-    "text-1": "Durable Development — bu tajribali va jips jamoa. <br/> Biz har bir loyihani ishonch bilan amalga oshirishimizning sababi —  <br/> muvofiqlashtirilgan jamoaviy ishdir. Har bir aʼzo o‘z sohasining mutaxassisi.",
+  "big-title-1": "Bir maqsad <br/> bir jamoa",
+  "text-1": "Durable Development — bu tajribali va jips jamoa. <br/> Biz har bir loyihani ishonch bilan amalga oshirishimizning sababi —  <br/> muvofiqlashtirilgan jamoaviy ishdir. Har bir aʼzo o‘z sohasining mutaxassisi.",
 
-    "big-title-2": "Zamonaviy transport – <br/> tez va ishonchli",
-    "text-2": "Bizda qurilish jarayonlarini o‘z vaqtida bajarish uchun <br/> kerakli barcha texnikalar mavjud. Zamonaviy yuk mashinalari, <br/> maxsus texnika va xavfsiz logistika tizimi — bizning asosiy ustunligimiz.",
+  "big-title-2": "Zamonaviy transport – <br/> tez va ishonchli",
+  "text-2": "Bizda qurilish jarayonlarini o‘z vaqtida bajarish uchun <br/> kerakli barcha texnikalar mavjud. Zamonaviy yuk mashinalari, <br/> maxsus texnika va xavfsiz logistika tizimi — bizning asosiy ustunligimiz.",
 
-    "big-title-3": "Ishonch —  <br/> vaʼdaga sodiqlik",
-    "text-3": "Mijozlar bizga vaqtida topshiriladigan, sifatli loyihalar <br/> uchun murojaat qilishadi. Biz bu ishonchni oqlashga har doim tayyormiz."
+  "big-title-3": "Ishonch —  <br/> vaʼdaga sodiqlik",
+  "text-3": "Mijozlar bizga vaqtida topshiriladigan, sifatli loyihalar <br/> uchun murojaat qilishadi. Biz bu ishonchni oqlashga har doim tayyormiz.",
 
-  ,
+  "services": {
+    "section_title": "Xizmatlarimiz",
+    "section_subtitle": "Barqaror qurilish uchun innovatsion yechimlar",
 
+    "water_18l_title": "Ekologik toza qurilish materiallari",
+    "water_18l_desc": "Qurilishda ishlatiladigan barcha materiallar ekologik xavfsiz, bardoshli va zamon talablariga mos bo‘lgan sifatli Loyihalardir.",
 
+    "dispenser_title": "Energiya tejamkor muhandislik tizimlari",
+    "dispenser_desc": "Ventilyatsiya, isitish va elektr tizimlarida energiyani tejash imkonini beruvchi zamonaviy muhandislik yechimlari taqdim etamiz.",
 
+    "icetea_title": "Yashil arxitektura va dizayn",
+    "icetea_desc": "Biz loyihalarimizda ekologik muvozanatni saqlagan holda, tabiiy yoritish, yashil zonalar va tabiiy materiallardan foydalanamiz.",
 
-    "services": {
-      "section_title": "Xizmatlarimiz",
-      "section_subtitle": "Barqaror qurilish uchun innovatsion yechimlar",
+    "read_more": "Batafsil"
+  },
+  "choose": {
+    "badge": "Barqaror<br/>Rivojlanish",
+    "why_title": "Nima uchun bizni tanlashadi?",
+    "why_subtitle": "Barqaror rivojlanish sari ishonchli hamkorlik",
 
-      "water_18l_title": "Ekologik toza qurilish materiallari",
-      "water_18l_desc": "Qurilishda ishlatiladigan barcha materiallar ekologik xavfsiz, bardoshli va zamon talablariga mos bo‘lgan sifatli Loyihalardir.",
+    "feature1_title": "Ekologik yechimlar",
+    "feature1_desc": "Tabiatga zarar yetkazmaydigan qurilish materiallari va texnologiyalar.",
 
-      "dispenser_title": "Energiya tejamkor muhandislik tizimlari",
-      "dispenser_desc": "Ventilyatsiya, isitish va elektr tizimlarida energiyani tejash imkonini beruvchi zamonaviy muhandislik yechimlari taqdim etamiz.",
+    "feature2_title": "Energiya samaradorligi",
+    "feature2_desc": "Binolar uchun issiqlik izolyatsiyasi va past energiya sarfi tizimlari.",
 
-      "icetea_title": "Yashil arxitektura va dizayn",
-      "icetea_desc": "Biz loyihalarimizda ekologik muvozanatni saqlagan holda, tabiiy yoritish, yashil zonalar va tabiiy materiallardan foydalanamiz.",
+    "feature3_title": "Bardoshli qurilish",
+    "feature3_desc": "Uzoq yillik foydalanishga mo‘ljallangan mustahkam inshootlar.",
 
-      "read_more": "Batafsil"
-    }
-  ,
+    "feature4_title": "Sifat nazorati",
+    "feature4_desc": "Har bir bosqichda sinchkovlik bilan tekshiruv va kafolat.",
 
+    "feature5_title": "Mutaxassis jamoa",
+    "feature5_desc": "Har bir loyiha ustida tajribali muhandislar va dizaynerlar ishlaydi.",
 
-
-
-
-
-
-
-
-    "choose": {
-      "badge": "Barqaror<br/>Rivojlanish",
-      "why_title": "Nima uchun bizni tanlashadi?",
-      "why_subtitle": "Barqaror rivojlanish sari ishonchli hamkorlik",
-
-      "feature1_title": "Ekologik yechimlar",
-      "feature1_desc": "Tabiatga zarar yetkazmaydigan qurilish materiallari va texnologiyalar.",
-
-      "feature2_title": "Energiya samaradorligi",
-      "feature2_desc": "Binolar uchun issiqlik izolyatsiyasi va past energiya sarfi tizimlari.",
-
-      "feature3_title": "Bardoshli qurilish",
-      "feature3_desc": "Uzoq yillik foydalanishga mo‘ljallangan mustahkam inshootlar.",
-
-      "feature4_title": "Sifat nazorati",
-      "feature4_desc": "Har bir bosqichda sinchkovlik bilan tekshiruv va kafolat.",
-
-      "feature5_title": "Mutaxassis jamoa",
-      "feature5_desc": "Har bir loyiha ustida tajribali muhandislar va dizaynerlar ishlaydi.",
-
-      "feature6_title": "Tezkor qurilish",
-      "feature6_desc": "Rejada belgilangan muddatda loyihani yetkazish kafolati."
-    }
-  ,
-
-
-
-
-
-
-
-
+    "feature6_title": "Tezkor qurilish",
+    "feature6_desc": "Rejada belgilangan muddatda loyihani yetkazish kafolati."
+  },
   "features": {
     "title_sub": "Suv va Siz",
     "title_main": "Sog‘lom hayot uchun  ajralmas manba",
@@ -149,7 +121,6 @@
     "step3_title": "O‘z vaqtida yetkazib berish",
     "step3_desc": "Jamoamiz tomonidan buyurtmangiz eshigingizga o‘z vaqtida yetkaziladi."
   },
-
 
   "blog": {
     "subtitle": "So‘nggi blog postlar",
@@ -242,8 +213,6 @@
       "showing": "15 ta mahsulotdan 1 dan 10 gacha ko‘rsatilmoqda",
       "bpa_note": "Bizning butilkalangan suvlarimiz BPA moddasiz plastik variantlarda taqdim etiladi."
     }
-
-
   },
   "cart": {
     "title": "Savatingiz",
@@ -268,11 +237,8 @@
       "update": "Yangilash",
       "checkout": "To‘lovga o‘tish"
     }
-  }
-,
-
+  },
   "product_details": {
-
     "availability": "Mavjudlik:",
     "in_stock": "Sotuvda mavjud",
     "price_current": "$12.50",
@@ -307,7 +273,6 @@
         "taste_label": "Ta'mi",
         "taste_value": "Tabiiy (oddiy)"
       }
-
     },
 
     "leave_review": {
@@ -364,7 +329,6 @@
     ]
   },
 
-
   "about": {
     "section_subtitle": "Har bir tomchi- <br /> ishonch va sifat",
     "certified_title": "<span>NSF & IBWA</span><br />Sertifikatlangan Kompaniya",
@@ -374,9 +338,7 @@
     "tab_header": "30 yildan beri <br />oilaviy boshqaruv ostida",
     "tab1_text": "Qiyinchiliklarga qaramay, biz sifatli suv yetkazib berishdan voz kechmaymiz. Har bir mijozimizga qulaylik va ishonchni taqdim etamiz.",
     "tab2_text": "Bizning asosiy maqsadimiz – sifatli, xavfsiz va ekologik toza suvni har bir oila va korxonaga yetkazib berish. Biz mijozlar ishonchini qadrlaymiz.",
-    "more": "Batafsil"
-,
-
+    "more": "Batafsil",
     "hero": {
       "title": "Tabiiy suv <br> har bir uy uchun",
       "subtitle": "100% o‘zimizning mahsulot, o‘zimizning g‘amxo‘rlik",
@@ -401,144 +363,137 @@
       "section_title": "Eleven Water ortidagi jamoa",
       "section_subtitle": "Jamoa A'zolari",
       "see_all": "Barchasini ko‘rish"
+    }
+  },
 
-    }
-  }
-
-,"pricing": {
-  "breadcrumb_title": "Tariflar va Rejalar",
-  "breadcrumb_home": "Bosh sahifa",
-  "plans": [
-    {
-      "name": "Asosiy Tarif",
-      "price": "49",
-      "period": "oyiga",
-      "note": "*narxlar o‘zgarishi mumkin",
-      "short_desc": "Yengillik va qulaylikni taqdim etuvchi qulay tarif.",
-      "features": [
-        "Bepul yetkazib berish",
-        "Oyiga 10 ta idishgacha",
-        "Bo‘sh idishlarni yig‘ish",
-        "Yiliga 120 ta idishgacha",
-        "Mineral suv"
-      ],
-      "button": "Buyurtma berish"
+  "pricing": {
+    "breadcrumb_title": "Tariflar va Rejalar",
+    "breadcrumb_home": "Bosh sahifa",
+    "plans": [
+      {
+        "name": "Asosiy Tarif",
+        "price": "49",
+        "period": "oyiga",
+        "note": "*narxlar o‘zgarishi mumkin",
+        "short_desc": "Yengillik va qulaylikni taqdim etuvchi qulay tarif.",
+        "features": [
+          "Bepul yetkazib berish",
+          "Oyiga 10 ta idishgacha",
+          "Bo‘sh idishlarni yig‘ish",
+          "Yiliga 120 ta idishgacha",
+          "Mineral suv"
+        ],
+        "button": "Buyurtma berish"
+      },
+      {
+        "name": "Premium Tarif",
+        "price": "99",
+        "period": "yiliga",
+        "note": "*narxlar o‘zgarishi mumkin",
+        "short_desc": "Yiliga bir marta to‘lov, arzon va qulay yechim.",
+        "features": [
+          "Bepul yetkazib berish",
+          "Oyiga 10 ta idishgacha",
+          "Bo‘sh idishlarni yig‘ish",
+          "Yiliga 120 ta idishgacha",
+          "Mineral suv"
+        ],
+        "button": "Buyurtma berish"
+      },
+      {
+        "name": "Advanced Tarif",
+        "price": "79",
+        "period": "oyiga",
+        "note": "*narxlar o‘zgarishi mumkin",
+        "short_desc": "Ko‘proq idishlar, kengroq imkoniyatlar.",
+        "features": [
+          "Bepul yetkazib berish",
+          "Oyiga 10 ta idishgacha",
+          "Bo‘sh idishlarni yig‘ish",
+          "Yiliga 120 ta idishgacha",
+          "Mineral suv"
+        ],
+        "button": "Buyurtma berish"
+      }
+    ]
+  },
+  "contact": {
+    "box_title": "Ishonchli<br />Tezkor<br />Qo‘llab-quvvatlash",
+    "subtitle": "Bog‘lanish",
+    "title": "Savolingizga <br />yordam berishdan mamnunmiz!",
+    "call_title": "Biz bilan bog'lanish",
+    "call_text": "+99871 255 88 22",
+    "description": "Savollaringiz bo‘lsa yoki xizmatlarimizdan foydalanmoqchi bo‘lsangiz,<br />bizga bemalol murojaat qiling.",
+    "call_button": "Qayta qo‘ng‘iroq",
+    "form_title": "Jamoamiz bilan bog‘laning",
+    "form_name": "Ismingiz",
+    "form_email": "Email pochtangiz",
+    "form_address": "Manzilingiz",
+    "form_checkbox": " Takliflar va yangiliklarni <br> olishga roziman",
+    "form_submit": "Davom etish",
+    "form_loading": "Iltimos kuting...",
+    "breadcrumb_title": "Bog‘lanish",
+    "breadcrumb_home": "Bosh sahifa",
+    "contact_boxes": {
+      "address": {
+        "title": "Instagram",
+        "text": "Instagram sahifamiz"
+      },
+      "phone": {
+        "title": "Telefon",
+        "text": "Tel: +998551510011"
+      },
+      "email": {
+        "title": "Telegram",
+        "text": "Telegram kanalimiz"
+      },
+      "hours": {
+        "title": "Telegram",
+        "text": "Telegram bot"
+      }
     },
-    {
-      "name": "Premium Tarif",
-      "price": "99",
-      "period": "yiliga",
-      "note": "*narxlar o‘zgarishi mumkin",
-      "short_desc": "Yiliga bir marta to‘lov, arzon va qulay yechim.",
-      "features": [
-        "Bepul yetkazib berish",
-        "Oyiga 10 ta idishgacha",
-        "Bo‘sh idishlarni yig‘ish",
-        "Yiliga 120 ta idishgacha",
-        "Mineral suv"
-      ],
-      "button": "Buyurtma berish"
+    "dealer_finder": {
+      "title": "Diler toping",
+      "subtitle": "Eng yaqin Eleven Water dilerini toping va tezkor xizmatdan foydalaning.",
+      "placeholder": "Pochta indeksini kiriting ...",
+      "button": "Qidirish",
+      "message": "Agar topa olmasangiz, +998551510011 raqamiga murojaat qiling."
     },
-    {
-      "name": "Advanced Tarif",
-      "price": "79",
-      "period": "oyiga",
-      "note": "*narxlar o‘zgarishi mumkin",
-      "short_desc": "Ko‘proq idishlar, kengroq imkoniyatlar.",
-      "features": [
-        "Bepul yetkazib berish",
-        "Oyiga 10 ta idishgacha",
-        "Bo‘sh idishlarni yig‘ish",
-        "Yiliga 120 ta idishgacha",
-        "Mineral suv"
-      ],
-      "button": "Buyurtma berish"
-    }
-  ]
-}
-,
-"contact": {
-  "box_title": "Ishonchli<br />Tezkor<br />Qo‘llab-quvvatlash",
-  "subtitle": "Bog‘lanish",
-  "title": "Savolingizga <br />yordam berishdan mamnunmiz!",
-  "call_title": "Biz bilan bog'lanish",
-  "call_text": "+99871 255 88 22",
-  "description": "Savollaringiz bo‘lsa yoki xizmatlarimizdan foydalanmoqchi bo‘lsangiz,<br />bizga bemalol murojaat qiling.",
-  "call_button": "Qayta qo‘ng‘iroq",
-  "form_title": "Jamoamiz bilan bog‘laning",
-  "form_name": "Ismingiz",
-  "form_email": "Email pochtangiz",
-  "form_address": "Manzilingiz",
-  "form_checkbox": " Takliflar va yangiliklarni <br> olishga roziman",
-  "form_submit": "Davom etish",
-  "form_loading": "Iltimos kuting...",
-  "breadcrumb_title": "Bog‘lanish",
-  "breadcrumb_home": "Bosh sahifa",
-  "contact_boxes": {
-    "address": {
-      "title": "Instagram",
-      "text": "Instagram sahifamiz"
+    "contact_form": {
+      "subtitle": "Savolingiz bormi?",
+      "title": "Sizning murojaatingizni mamnuniyat bilan kutamiz!",
+      "form_title": "Xabar yuboring",
+      "fields": {
+        "name": "Ism familiya :",
+        "email": "Email manzilingiz :",
+        "phone": "Telefon raqam :",
+        "subject": "Mavzu :",
+        "message": "Xabaringizni kiriting..."
+      },
+      "submit": "Yuborish",
+      "loading": "Iltimos kuting..."
     },
-    "phone": {
-      "title": "Telefon",
-      "text": "Tel: +998551510011"
+    "services": {
+      "family": {
+        "title": "Yakka tartibdagi uylar",
+        "desc": "Mustahkam va zamonaviy uylarni loyihalash va qurish xizmati.",
+        "button": "Batafsil"
+      },
+      "office": {
+        "title": "Ofis va tijorat binolari",
+        "desc": "Biznesingiz uchun funksional va jozibali bino qurilishi.",
+        "button": "Batafsil"
+      }
     },
-    "email": {
-      "title": "Telegram",
-      "text": "Telegram kanalimiz"
-    },
-    "hours": {
-      "title": "Telegram",
-      "text": "Telegram bot"
+    "map": {
+      "title": "Bizning manzil",
+      "placeholder": "Xaritadan joylashuvimizni toping"
     }
   },
-  "dealer_finder": {
-    "title": "Diler toping",
-    "subtitle": "Eng yaqin Eleven Water dilerini toping va tezkor xizmatdan foydalaning.",
-    "placeholder": "Pochta indeksini kiriting ...",
-    "button": "Qidirish",
-    "message": "Agar topa olmasangiz, +998551510011 raqamiga murojaat qiling."
-  },
-  "contact_form": {
-    "subtitle": "Savolingiz bormi?",
-    "title": "Sizning murojaatingizni mamnuniyat bilan kutamiz!",
-    "form_title": "Xabar yuboring",
-    "fields": {
-      "name": "Ism familiya :",
-      "email": "Email manzilingiz :",
-      "phone": "Telefon raqam :",
-      "subject": "Mavzu :",
-      "message": "Xabaringizni kiriting..."
-    },
-    "submit": "Yuborish",
-    "loading": "Iltimos kuting..."
-  },
-  "services": {
-    "family": {
-      "title": "Yakka tartibdagi uylar",
-      "desc": "Mustahkam va zamonaviy uylarni loyihalash va qurish xizmati.",
-      "button": "Batafsil"
-    },
-    "office": {
-      "title": "Ofis va tijorat binolari",
-      "desc": "Biznesingiz uchun funksional va jozibali bino qurilishi.",
-      "button": "Batafsil"
-    }
-  },
-  "map": {
-    "title": "Bizning manzil",
-    "placeholder": "Xaritadan joylashuvimizni toping"
-  }
-}
-,
-
   "footer": {
     "about": {
       "description": "Biz mijozlarimizga qulaylik yaratish uchun xavfsiz va ishonchli xizmatlar taqdim etamiz. Har bir buyurtma – ishonchli qadam!",
-      "features": [
-        "Bepul yetkazib berish",
-        "Xavfsiz va tezkor to‘lov tizimi"
-      ]
+      "features": ["Bepul yetkazib berish", "Xavfsiz va tezkor to‘lov tizimi"]
     },
     "links": {
       "title": "Foydali havolalar",
@@ -570,24 +525,98 @@
     },
     "bottom": {
       "copyright": "Mualliflik huquqi © {{year}} Durable Development. Barcha huquqlar himoyalangan.",
-      "nav": [
-        "Foydalanish shartlari",
-        "Maxfiylik siyosati",
-        "Sayt xaritasi"
-      ]
+      "nav": ["Foydalanish shartlari", "Maxfiylik siyosati", "Sayt xaritasi"]
     },
     "search_popup": {
       "placeholder": "Qidiruv...",
       "submit": "Qidirish",
       "title": "So‘nggi qidiruv kalit so‘zlari",
-      "recent": [
-        "Suv sifati",
-        "Mineral",
-        "Shisha",
-        "Xavfsizlik",
-        "Reja"
+      "recent": ["Suv sifati", "Mineral", "Shisha", "Xavfsizlik", "Reja"]
+    }
+  },
+  "services-section": {
+    "subtitle": "Xizmatlarimiz",
+    "title": "Barqaror qurilish uchun innovatsion yechimlar",
+
+    "service1": {
+      "title": "Ekologik toza qurilish materiallari",
+      "description": "Qurilishda ishlatiladigan barcha materiallar ekologik xavfsiz, bardoshli va zamon talablariga mos bo‘lgan sifatli mahsulotlardir."
+    },
+
+    "service2": {
+      "title": "Energiya tejamkor muhandislik tizimlari",
+      "description": "Ventilyatsiya, isitish va elektr tizimlarida energiyani tejash imkonini beruvchi zamonaviy muhandislik yechimlari taqdim etamiz."
+    },
+
+    "service3": {
+      "title": "Yashil arxitektura va dizayn",
+      "description": "Biz loyihalarimizda ekologik muvozanatni saqlagan holda, tabiiy yoritish, yashil zonalar va tabiiy materiallardan foydalanamiz."
+    },
+
+    "more-button": "Batafsil"
+  },
+  "stats-section": {
+    "title": "Kompaniyamiz ko‘rsatkichlari",
+    "subtitle": "Barqaror rivojlanish sari ishonch bilan yurib borayotgan natijalarimiz bilan tanishing.",
+
+    "item1": {
+      "label": "Barqaror loyiha ishlanmalari",
+      "description": "Ekologik va energiya tejamkor yechimlar asosida."
+    },
+    "item2": {
+      "label": "Yillik tajriba",
+      "description": "Samarali va uzoq muddatli tajribalar."
+    },
+    "item3": {
+      "label": "Mutaxassislar",
+      "description": "Tajribali va professionallar jamoasi."
+    },
+    "item4": {
+      "label": "Faol hududlar",
+      "description": "O‘zbekiston bo‘ylab faol qurilish zonalari."
+    },
+    "item5": {
+      "label": "Mamnun mijozlar",
+      "description": "Ishonchli hamkorliklar va sifatli xizmatlar."
+    }
+  },
+  "main": "Bosh sahifa",
+  "about_company": "Kompaniya haqida",
+  "about": {
+    "section_subtitle": "Barqarorlik va sifat bizning ustuvorligimizdir",
+    "title": "Barqaror kelajak sari mustahkam qadamlar",
+    "short_desc": "Ishonchli, sifatli va ekologik yechimlar bilan bunyodkorlikda yetakchimiz",
+    "description": "Durable Development kompaniyasi zamonaviy qurilish texnologiyalarini, ekologik yechimlarni va energiya samarador uslublarni birlashtirgan yondashuvi bilan ajralib turadi. Biz har bir loyiha orqali inson hayoti uchun qulay, xavfsiz va uzoq muddatli infratuzilma yaratamiz. Kompaniyamiz O‘zbekiston bo‘ylab turli qurilish tarmoqlarida o‘zini isbotlagan, tajribali va sadoqatli jamoasi bilan faxrlanadi.",
+    "founder": {
+      "name": "Javlonbek Mahmudov",
+      "position": "Durable Development asoschisi"
+    },
+    "story_title": "Bizning Hikoyamiz",
+    "story_text": "Durable Development o‘z faoliyatini 2015-yilda boshlagan. Ilk kunlardanoq kompaniya sifat, halollik va mijozga e’tibor prinsiplarini o‘ziga ustuvor qilib olgan. Bugungi kunda kompaniya yuzlab turar-joy, ofis, sanoat va ijtimoiy obyektlarni muvaffaqiyatli qurib foydalanishga topshirdi.",
+    "mission_title": "Bizning Maqsadimiz",
+    "mission_text": "Bizning asosiy maqsadimiz – mijozlarimiz orzusidagi loyihalarni hayotga tatbiq etish. Har bir qurilish – bu biz uchun mas’uliyat. Biz nafaqat mustahkam bino, balki ishonchli hamkorlik va barqaror kelajak quramiz.",
+    "btn_more": "Batafsil",
+    "team": {
+      "section_subtitle": "Barqarorlik va sifat bizning ustuvorligimizdir",
+      "see_all": "Barchasini ko‘rish",
+      "members": [
+        {
+          "name": "Baldwin Caleb",
+          "position": "Asoschi"
+        },
+        {
+          "name": "Dale Harold",
+          "position": "Menejer"
+        },
+        {
+          "name": "Amelia Isabella",
+          "position": "Sifat nazorati rahbari"
+        },
+        {
+          "name": "Fabian Barrie",
+          "position": "Operator"
+        }
       ]
     }
   }
-
 }

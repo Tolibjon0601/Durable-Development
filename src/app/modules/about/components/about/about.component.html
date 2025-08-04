@@ -2,32 +2,31 @@
 <section class="breadcrumb-area">
   <div class="breadcrumb-area-bg" style="background-image: url(assets/images/breadcrumb/breadcrumb-1.jpg);"></div>
   <div class="container">
-      <div class="row">
-          <div class="col-xl-12">
-              <div class="inner-content text-center">
-                  <div class="title">
-                     <h2>{{"about_company"|translate}}</h2>
-                  </div>
-                  <div class="breadcrumb-menu">
-                      <ul>
-                          <li><a href="index.html">{{"main"|translate}} </a></li>
-                          <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
-                          <li class="active">{{"about_company"|translate}}</li>
-                      </ul>
-                  </div>
-              </div>
+    <div class="row">
+      <div class="col-xl-12">
+        <div class="inner-content text-center">
+          <div class="title">
+            <h2>{{ 'about_company' | translate }}</h2>
           </div>
+          <div class="breadcrumb-menu">
+            <ul>
+              <li><a href="index.html">{{ 'main' | translate }}</a></li>
+              <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+              <li class="active">{{ 'about_company' | translate }}</li>
+            </ul>
+          </div>
+        </div>
       </div>
+    </div>
   </div>
 </section>
 <!--End breadcrumb area-->
-<!--Start About Style3 Area-->
 <section class="about-style3-area">
   <div class="container">
     <div class="row">
       <div class="col-xl-12">
         <div class="about-style3-top">
-          <img src="../../../../../assets/images/resources/page-title-bg.jpg" alt="Kompaniya rasmi" />
+          <img src="assets/images/resources/page-title-bg.jpg" alt="Kompaniya rasmi" />
         </div>
         <div class="about-style3-content">
           <div class="row">
@@ -35,22 +34,18 @@
               <div class="about-style3-text-box1">
                 <div class="sec-title">
                   <div class="sub-title">
-                    <h5>Kompaniya haqida</h5>
+                    <h5>{{ 'about.section_subtitle' | translate }}</h5>
                   </div>
-                  <h2>Barqaror kelajak sari mustahkam qadamlar</h2>
+                  <h2>{{ 'about.title' | translate }}</h2>
                   <div class="decor">
                     <img src="assets/images/shape/decor.png" alt="">
                   </div>
                 </div>
 
                 <div class="inner-content">
-                  <h5>Ishonchli, sifatli va ekologik yechimlar bilan bunyodkorlikda yetakchimiz</h5>
+                  <h5>{{ 'about.short_desc' | translate }}</h5>
                   <div class="text">
-                    <p>
-                      Durable Development kompaniyasi zamonaviy qurilish texnologiyalarini, ekologik yechimlarni va energiya samarador uslublarni birlashtirgan yondashuvi bilan ajralib turadi.
-                      Biz har bir loyiha orqali inson hayoti uchun qulay, xavfsiz va uzoq muddatli infratuzilma yaratamiz.
-                      Kompaniyamiz O‘zbekiston bo‘ylab turli qurilish tarmoqlarida o‘zini isbotlagan, tajribali va sadoqatli jamoasi bilan faxrlanadi.
-                    </p>
+                    <p>{{ 'about.description' | translate }}</p>
                   </div>
 
                   <div class="bottom-box">
@@ -58,8 +53,8 @@
                       <img src="assets/images/resources/signature.png" alt="">
                     </div>
                     <div class="name">
-                      <h5>Javlonbek Mahmudov</h5>
-                      <span>Durable Development asoschisi</span>
+                      <h5>{{ 'about.founder.name' | translate }}</h5>
+                      <span>{{ 'about.founder.position' | translate }}</span>
                     </div>
                   </div>
                 </div>
@@ -77,13 +72,10 @@
                         </div>
                       </div>
                       <div class="text-box">
-                        <h3>Bizning Hikoyamiz</h3>
-                        <p>
-                          Durable Development o‘z faoliyatini 2015-yilda boshlagan. Ilk kunlardanoq kompaniya sifat, halollik va mijozga e’tibor prinsiplarini o‘ziga ustuvor qilib olgan.
-                          Bugungi kunda kompaniya yuzlab turar-joy, ofis, sanoat va ijtimoiy obyektlarni muvaffaqiyatli qurib foydalanishga topshirdi.
-                        </p>
+                        <h3>{{ 'about.story_title' | translate }}</h3>
+                        <p>{{ 'about.story_text' | translate }}</p>
                         <div class="btns-box">
-                          <a class="btn-two" href="#"><span class="icon-right-arrow"></span>Batafsil</a>
+                          <a class="btn-two" href="#"><span class="icon-right-arrow"></span>{{ 'about.btn_more' | translate }}</a>
                         </div>
                       </div>
                     </div>
@@ -97,13 +89,10 @@
                         </div>
                       </div>
                       <div class="text-box">
-                        <h3>Bizning Maqsadimiz</h3>
-                        <p>
-                          Bizning asosiy maqsadimiz – mijozlarimiz orzusidagi loyihalarni hayotga tatbiq etish. Har bir qurilish – bu biz uchun mas’uliyat.
-                          Biz nafaqat mustahkam bino, balki ishonchli hamkorlik va barqaror kelajak quramiz.
-                        </p>
+                        <h3>{{ 'about.mission_title' | translate }}</h3>
+                        <p>{{ 'about.mission_text' | translate }}</p>
                         <div class="btns-box">
-                          <a class="btn-two" href="#"><span class="icon-right-arrow"></span>Batafsil</a>
+                          <a class="btn-two" href="#"><span class="icon-right-arrow"></span>{{ 'about.btn_more' | translate }}</a>
                         </div>
                       </div>
                     </div>
@@ -119,178 +108,59 @@
     </div>
   </div>
 </section>
-<!--End About Style3 Area-->
 
 
-<!--Start Team Style1 Area-->
+
 <section class="team-style1-area">
   <div class="team-style1-area-bg" style="background-image: url(assets/images/parallax-background/working-process-area-bg.jpg);"></div>
   <div class="container">
     <div class="team-style2_top">
-        <div class="sec-title">
-          <div class="sub-title">
-            <h5>{{"about.team.section_subtitle"|translate}}</h5>
-          </div>
-          <h2 class="clr_white">Bizning jamoamiz</h2>
-          <div class="decor">
-            <img src="assets/images/shape/decor.png" alt="">
-          </div>
+      <div class="sec-title">
+        <div class="sub-title">
+          <h5>{{ 'about.team.section_subtitle' | translate }}</h5>
         </div>
-        <div class="btn-box">
-          <a class="btn-one" href="shop.html">
-            <div class="round"></div>
-            <span class="txt">{{"about.team.see_all"|translate}}</span>
-          </a>
+        <h2 class="clr_white">{{ 'about_company' | translate }}</h2>
+        <div class="decor">
+          <img src="assets/images/shape/decor.png" alt="">
         </div>
       </div>
-
-      <div class="row">
-          <!--Start Single Team Style1-->
-          <div class="col-xl-3 col-lg-6 col-lg-6">
-              <div class="single-team-style1 wow fadeInRight animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                  <div class="img-holder">
-                      <div class="inner">
-                          <img src="assets/images/team/team-v1-1.jpg" alt=""/>
-                          <div class="overlay-box"></div>
-                      </div>
-                      <div class="title-holder">
-                          <div class="share-icon-border two"></div>
-                          <div class="share-icon">
-                              <i class="fa fa-share-alt" aria-hidden="true"></i>
-                              <div class="social-link-box">
-                                  <ul class="team-social-link">
-                                      <li>
-                                          <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                      </li>
-                                      <li>
-                                          <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                      </li>
-                                      <li>
-                                          <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                                      </li>
-                                  </ul>
-                              </div>
-                          </div>
-                          <div class="title-inner">
-                              <div class="share-icon-border"></div>
-                              <h5><a href="#">Baldwin Caleb</a></h5>
-                              <p>Founder</p>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <!--End Single Team Style1-->
-          <!--Start Single Team Style1-->
-          <div class="col-xl-3 col-lg-6 col-lg-6">
-              <div class="single-team-style1 wow fadeInRight animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                  <div class="img-holder">
-                      <div class="inner">
-                          <img src="assets/images/team/team-v1-2.jpg" alt=""/>
-                          <div class="overlay-box"></div>
-                      </div>
-                      <div class="title-holder">
-                          <div class="share-icon-border two"></div>
-                          <div class="share-icon">
-                              <i class="fa fa-share-alt" aria-hidden="true"></i>
-                              <div class="social-link-box">
-                                  <ul class="team-social-link">
-                                      <li>
-                                          <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                      </li>
-                                      <li>
-                                          <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                      </li>
-                                      <li>
-                                          <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                                      </li>
-                                  </ul>
-                              </div>
-                          </div>
-                          <div class="title-inner">
-                              <div class="share-icon-border"></div>
-                              <h5><a href="#">Dale Harold</a></h5>
-                              <p>Manager</p>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <!--End Single Team Style1-->
-          <!--Start Single Team Style1-->
-          <div class="col-xl-3 col-lg-6 col-lg-6">
-              <div class="single-team-style1 wow fadeInRight animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                  <div class="img-holder">
-                      <div class="inner">
-                          <img src="assets/images/team/team-v1-3.jpg" alt=""/>
-                          <div class="overlay-box"></div>
-                      </div>
-                      <div class="title-holder">
-                          <div class="share-icon-border two"></div>
-                          <div class="share-icon">
-                              <i class="fa fa-share-alt" aria-hidden="true"></i>
-                              <div class="social-link-box">
-                                  <ul class="team-social-link">
-                                      <li>
-                                          <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                      </li>
-                                      <li>
-                                          <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                      </li>
-                                      <li>
-                                          <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                                      </li>
-                                  </ul>
-                              </div>
-                          </div>
-                          <div class="title-inner">
-                              <div class="share-icon-border"></div>
-                              <h5><a href="#">Amelia Isabella</a></h5>
-                              <p>Quality Head</p>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <!--End Single Team Style1-->
-          <!--Start Single Team Style1-->
-          <div class="col-xl-3 col-lg-6 col-lg-6">
-              <div class="single-team-style1 wow fadeInRight animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                  <div class="img-holder">
-                      <div class="inner">
-                          <img src="assets/images/team/team-v1-4.jpg" alt=""/>
-                          <div class="overlay-box"></div>
-                      </div>
-                      <div class="title-holder">
-                          <div class="share-icon-border two"></div>
-                          <div class="share-icon">
-                              <i class="fa fa-share-alt" aria-hidden="true"></i>
-                              <div class="social-link-box">
-                                  <ul class="team-social-link">
-                                      <li>
-                                          <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                      </li>
-                                      <li>
-                                          <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                      </li>
-                                      <li>
-                                          <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                                      </li>
-                                  </ul>
-                              </div>
-                          </div>
-                          <div class="title-inner">
-                              <div class="share-icon-border"></div>
-                              <h5><a href="#">Fabian Barrie</a></h5>
-                              <p>Operator</p>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <!--End Single Team Style1-->
-
+      <div class="btn-box">
+        <a class="btn-one" href="shop.html">
+          <div class="round"></div>
+          <span class="txt">{{ 'about.team.see_all' | translate }}</span>
+        </a>
       </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xl-3 col-lg-6" *ngFor="let member of ['0','1','2','3']">
+        <div class="single-team-style1">
+          <div class="img-holder">
+            <div class="inner">
+              <img [src]="'assets/images/team/team-v1-' + (member + 1) + '.jpg'" alt="Team Member"/>
+              <div class="overlay-box"></div>
+            </div>
+            <div class="title-holder">
+              <div class="share-icon-border two"></div>
+              <div class="share-icon">
+                <i class="fa fa-share-alt" aria-hidden="true"></i>
+                <div class="social-link-box">
+                  <ul class="team-social-link">
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="title-inner">
+                <div class="share-icon-border"></div>
+                <h5><a href="#">{{ 'about.team.members.' + member + '.name' | translate }}</a></h5>
+                <p>{{ 'about.team.members.' + member + '.position' | translate }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
-<!--End Team Style1 Area-->

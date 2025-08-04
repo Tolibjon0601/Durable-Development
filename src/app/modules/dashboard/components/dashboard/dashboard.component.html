@@ -130,9 +130,10 @@
   <div class="container">
     <div class="sec-title text-center">
       <div class="sub-title">
-        <h5>Xizmatlarimiz</h5>
+        <h5>{{ 'services-section.subtitle' | translate }}</h5>
+
       </div>
-      <h2>Barqaror qurilish uchun innovatsion yechimlar</h2>
+      <h2>{{ 'services-section.title' | translate }}</h2>
       <div class="decor">
         <img src="assets/images/shape/decor.png" alt="" />
       </div>
@@ -150,12 +151,14 @@
 
           </div>
           <div class="title-holder">
-            <h3><a routerLink="service-detail">Ekologik toza qurilish materiallari</a></h3>
+            <h3><a routerLink="service-detail">{{ 'services-section.service1.title' | translate }}</a></h3>
+
             <div class="inner-text">
-              <p>Qurilishda ishlatiladigan barcha materiallar ekologik xavfsiz, bardoshli va zamon talablariga mos bo‘lgan sifatli mahsulotlardir.</p>
+              <p>{{ 'services-section.service1.description' | translate }}</p>
+
             </div>
             <div class="readmore-button">
-              <a routerLink="service-detail"><span class="icon-right-arrow"></span>Batafsil</a>
+              <a routerLink="service-detail"><span class="icon-right-arrow"></span>{{ 'services-section.more-button' | translate }}</a>
             </div>
           </div>
         </div>
@@ -172,12 +175,13 @@
 
           </div>
           <div class="title-holder">
-            <h3><a routerLink="service-detail">Energiya tejamkor muhandislik tizimlari</a></h3>
+            <h3><a routerLink="service-detail">{{ 'services-section.service2.title' | translate }}</a></h3>
             <div class="inner-text">
-              <p>Ventilyatsiya, isitish va elektr tizimlarida energiyani tejash imkonini beruvchi zamonaviy muhandislik yechimlari taqdim etamiz.</p>
+              <p>{{ 'services-section.service2.description' | translate }}</p>
+
             </div>
             <div class="readmore-button">
-              <a routerLink="service-detail"><span class="icon-right-arrow"></span>Batafsil</a>
+              <a routerLink="service-detail"><span class="icon-right-arrow"></span>{{ 'services-section.more-button' | translate }}</a>
             </div>
           </div>
         </div>
@@ -195,12 +199,13 @@
           </div>
 
           <div class="title-holder">
-            <h3><a routerLink="service-detail">Yashil arxitektura va dizayn</a></h3>
+            <h3><a routerLink="service-detail">{{ 'services-section.service3.title' | translate }}</a></h3>
             <div class="inner-text">
-              <p>Biz loyihalarimizda ekologik muvozanatni saqlagan holda, tabiiy yoritish, yashil zonalar va tabiiy materiallardan foydalanamiz.</p>
+              <p>{{ 'services-section.service3.description' | translate }}</p>
+
             </div>
             <div class="readmore-button">
-              <a routerLink="service-detail"><span class="icon-right-arrow"></span>Batafsil</a>
+              <a routerLink="service-detail"><span class="icon-right-arrow"></span>{{ 'services-section.more-button' | translate }}</a>
             </div>
           </div>
         </div>
@@ -213,7 +218,7 @@
         <div class="service-style1_btns-box text-center">
           <a routerLink="/services" class="btn-one">
             <div class="round"></div>
-            <span class="txt">Batafsil</span>
+            <span class="txt">{{ 'services-section.more-button' | translate }}</span>
           </a>
         </div>
       </div>
@@ -226,44 +231,45 @@
 <section class="fact-counter-area" #counterSection>
   <div class="fact-container">
     <div class="fact-title-box">
-      <h2 class="fact-heading">Kompaniyamiz ko‘rsatkichlari</h2>
+      <h2 class="fact-heading">{{ 'stats-section.title' | translate }}</h2>
       <p class="fact-subtitle">
-        Barqaror rivojlanish sari ishonch bilan yurib borayotgan natijalarimiz bilan tanishing.
+        {{ 'stats-section.subtitle' | translate }}
       </p>
     </div>
 
     <div class="fact-row justify-center">
       <div class="fact-card">
         <div class="fact-number" id="counter1">0</div>
-        <h6 class="fact-label">Barqaror loyiha ishlanmalari</h6>
-        <p class="fact-desc">Ekologik va energiya tejamkor yechimlar asosida.</p>
+        <h6 class="fact-label">{{ 'stats-section.item1.label' | translate }}</h6>
+        <p class="fact-desc">{{ 'stats-section.item1.description' | translate }}</p>
       </div>
       <div class="fact-card">
         <div class="fact-number" id="counter2">0</div>
-        <h6 class="fact-label">Yillik tajriba</h6>
-        <p class="fact-desc">Samarali va uzoq muddatli tajribalar.</p>
+        <h6 class="fact-label">{{ 'stats-section.item2.label' | translate }}</h6>
+        <p class="fact-desc">{{ 'stats-section.item2.description' | translate }}</p>
       </div>
       <div class="fact-card">
         <div class="fact-number" id="counter3">0</div>
-        <h6 class="fact-label">Mutaxassislar</h6>
-        <p class="fact-desc">Tajribali va professionallar jamoasi.</p>
+        <h6 class="fact-label">{{ 'stats-section.item3.label' | translate }}</h6>
+        <p class="fact-desc">{{ 'stats-section.item3.description' | translate }}</p>
       </div>
     </div>
 
     <div class="fact-row justify-center">
       <div class="fact-card">
         <div class="fact-number" id="counter4">0</div>
-        <h6 class="fact-label">Faol hududlar</h6>
-        <p class="fact-desc">O‘zbekiston bo‘ylab faol qurilish zonalari.</p>
+        <h6 class="fact-label">{{ 'stats-section.item4.label' | translate }}</h6>
+        <p class="fact-desc">{{ 'stats-section.item4.description' | translate }}</p>
       </div>
       <div class="fact-card">
         <div class="fact-number" id="counter5">0</div>
-        <h6 class="fact-label">Mamnun mijozlar</h6>
-        <p class="fact-desc">Ishonchli hamkorliklar va sifatli xizmatlar.</p>
+        <h6 class="fact-label">{{ 'stats-section.item5.label' | translate }}</h6>
+        <p class="fact-desc">{{ 'stats-section.item5.description' | translate }}</p>
       </div>
     </div>
   </div>
 </section>
+
 
 
 
@@ -393,6 +399,13 @@
   </div>
 </section>
 <!--End Choose Style1 Area-->
+
+
+
+
+
+
+
 
 
 
